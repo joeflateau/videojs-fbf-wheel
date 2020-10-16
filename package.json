@@ -1,0 +1,28 @@
+{
+  "name": "videojs-fbf-wheel",
+  "version": "1.0.4",
+  "main": "./dist/videojs-fbf-wheel.js",
+  "author": "Joe Flateau",
+  "keywords": [
+    "videojs",
+    "frame",
+    "wheel",
+    "mousewheel"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/video.js": "^7.3.11",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "video.js": "^7.8.4"
+  },
+  "files": [
+    "dist",
+    "*.d.ts"
+  ]
+}
