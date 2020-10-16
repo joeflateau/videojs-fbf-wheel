@@ -1,6 +1,6 @@
 {
   "name": "videojs-fbf-wheel",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./dist/videojs-fbf-wheel.js",
   "repository": "github:joeflateau/videojs-fbf-wheel",
   "author": "Joe Flateau",
