@@ -1,10 +1,12 @@
 # videojs-fbf-wheel
 
+[Stackblitz Demo](https://typescript-fbf-wheel-npm.stackblitz.io)
+
 Step frame-by-frame\* through videos.
 
-- Technically you cannot step through HTML5 video frame-by-frame, so you must specify a frame rate and we will step through at the specified frame rate.
+_\* Technically you cannot step through HTML5 video frame-by-frame, so you must specify a frame rate and we will step through at the specified frame rate._
 
-### Usage
+## Usage
 
 1. install `npm i videojs-fbf-wheel` or `yarn add videojs-fbf-wheel`
 
@@ -12,7 +14,7 @@ Step frame-by-frame\* through videos.
 
    ```typescript
    import videojs from "video.js";
-   import "../lib/videojs-fbf-wheel";
+   import "videojs-fbf-wheel";
    ```
 
 1. Initialize the plugin
